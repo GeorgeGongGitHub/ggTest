@@ -1,0 +1,18 @@
+{
+  "name": "GeorgeGong-MYOBTest",
+  "version": "1.0.0",
+  "description": "George Gong MYOB Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "George Gong",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mocha": "^6.0.2"
+  }
+}
