@@ -1,6 +1,6 @@
 before_script:
-	- npm install; npm install -g gulp
-script: gulp test
+	- npm ci
+script: mocha
 language: node_js
 env:
 	- PORT=7777
