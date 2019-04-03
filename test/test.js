@@ -16,7 +16,7 @@ describe('number tests', function() {
   
   describe('isEven', function() {
     it('should return true when number is even', function() {
-      isEven(4).should.be.true;
+      isEven(4).should.be.false;
     });
     
     it('should return false when number is odd', function() {
