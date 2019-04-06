@@ -4,7 +4,8 @@
   "description": "George Gong MYOB Test",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "George Gong",
