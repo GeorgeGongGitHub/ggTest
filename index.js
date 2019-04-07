@@ -1,7 +1,7 @@
 
 var express = require('express')
 var app = express()
-var port = process.env.PORT || 8080
+var port = process.env.PORT || 80
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function (req, res) {
   res.send('hello world')
