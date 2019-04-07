@@ -1,7 +1,7 @@
 
 var express = require('express')
 var app = express()
-process.env.PORT = 4242
+var port = process.env.PORT || 8080
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function (req, res) {
   res.send('hello world')
@@ -35,6 +35,6 @@ app.get('/meta',(req,res) => {
    res.send(exjson);
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
   console.log(`Api Server running on ${process.env.PORT} port, PID: ${process.pid}`);
 });
