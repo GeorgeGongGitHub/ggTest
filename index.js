@@ -28,6 +28,6 @@ app.get('/meta',(req,res) => {
    res.send(exjson);
 });
 
-app.listen(4242, () => {
+app.listen(4747, () => {
   console.log(`Api Server running on ${process.env.PORT} port, PID: ${process.pid}`);
 });
