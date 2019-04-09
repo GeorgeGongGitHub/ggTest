@@ -5,23 +5,23 @@
 Test can be found https://github.com/MYOB-Technology/ops-technical-test
 Deployment Package can be found on github https://github.com/GeorgeGongGitHub/ggTest
 
-#Endpoints:
+# Endpoints:
 	1. Helloworld	- https://ggheroku888.herokuapp.com/
 	2. Health Check	- https://ggheroku888.herokuapp.com/check
 	3. Meta Data	- https://ggheroku888.herokuapp.com/meta
 
-#Pipeline:
+# Pipeline:
 	1. Node.js to create Node project
 	2. Mocha and Chai to perform unit testing
 	3. Git to upload source code to Github. Then it allows us to integrate with other tools e.g. Travis and Heroku
 	4. Travis to create test site and show test status(pass or fail) in README.md on Github
 	5. Heroku to deploy github repository to cloud
 
-#Risks:
+# Risks:
 	1. Source Code is in a public repository. It could be used by other people for MYOB interview.
 	2. Heroku will put the web site into sleep if no web traffic in a 30-minute period. This may cause delay of showing health status.
 	
-#Improvements:
+# Improvements:
 	1. Parameterize stuff like ports and names
 	2. Use Docker to keep the environment consistency. We have to look into another deploy approach instead of Heroku though.
 	3. Use templates to automate the pipeline. At the moment, I created Github repository, Travis repository and Heroku apps manually. We can create scripts to automate these stuff. Then keep them in source control tool to make it more maintainable and configurable.
