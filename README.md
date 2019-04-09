@@ -4,7 +4,7 @@
 
 Test can be found https://github.com/MYOB-Technology/ops-technical-test
 
-Deployment Package can be found on github https://github.com/GeorgeGongGitHub/ggTest
+Deployment Package can be found on Github https://github.com/GeorgeGongGitHub/ggTest
 
 # Endpoints:
 	1. Helloworld	- https://ggheroku888.herokuapp.com/
@@ -16,7 +16,7 @@ Deployment Package can be found on github https://github.com/GeorgeGongGitHub/gg
 	2. Mocha and Chai to perform unit testing
 	3. Git to upload source code to Github. Then it allows us to integrate with other tools e.g. Travis and Heroku
 	4. Travis to create test site and show test status(pass or fail) in README.md on Github
-	5. Heroku to deploy github repository to cloud
+	5. Heroku to deploy Github repository to cloud
 
 # Risks:
 	1. Source Code is in a public repository. It could be used by other people for MYOB interview.
